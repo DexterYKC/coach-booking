@@ -38,3 +38,7 @@ Demo accounts are shown on the login page when `NEXT_PUBLIC_SHOW_DEMO_ACCOUNTS=t
 ## Status
 
 Feature-complete demo. A real deployment needs your own Supabase project, a verified Resend domain and, optionally, a WhatsApp Business provider.
+
+## License
+
+[MIT](LICENSE): you are free to use, adapt and build on this code. Credit is appreciated.
