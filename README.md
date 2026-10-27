@@ -4,6 +4,32 @@ A complete **appointment-booking web app for a solo coach** (originally built fo
 
 This is a **sanitized demo export**. It runs with **zero configuration** thanks to an in-memory, Supabase-compatible mock backend, so the full flow can be tried without creating any account. The UI is in French; code and docs are in English.
 
+## Screenshots
+
+Captured in the zero-config demo mode (in-memory backend, fictional data). The UI is in French.
+
+**Public site**
+
+![Services and pricing](docs/screenshots/website-services.jpg)
+![Moderated client reviews and location](docs/screenshots/website-reviews.jpg)
+
+**Client: pick a slot.** Seven-day picker; slots that are already taken or pending are struck through, which is how double-booking is prevented.
+
+![Slot picker](docs/screenshots/client-slot-picker.png)
+
+**Coach space**
+
+![Coach dashboard](docs/screenshots/coach-dashboard.png)
+![Weekly availability](docs/screenshots/coach-schedule.png)
+
+**Review moderation:** a client review waits for the coach's approval before it appears on the home page.
+
+![Review moderation](docs/screenshots/coach-review-moderation.png)
+
+**Admin: notification templates**, with dynamic variables for email and WhatsApp.
+
+![Notification templates](docs/screenshots/admin-notifications.png)
+
 ## Features
 
 - **Three roles**: client, coach (a single account created by the admin) and admin
